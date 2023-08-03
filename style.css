@@ -441,3 +441,74 @@ dl{
     line-height: 1.5rem;
 }
 /* end if section 6 */
+
+/* start of section 7 */
+.get-in-touch{
+    background-color: var(--main-blue-color);
+}
+
+.git-container{
+    color: var(--main-white-color);
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.git-text{
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 6rem;
+}
+
+.git-text p{
+    line-height: 2rem;
+    font-size: 1.125rem;
+    margin-top: 1.59rem;
+}
+
+
+.git-contact{
+    padding: 4.5rem 0rem;
+}
+
+.git-contact-card{
+    max-width: 28rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--main-white-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7rem;
+    padding-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.git-card{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1rem;
+}
+.git-card-logo{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git-card a{
+    font-size: 1.125rem;
+    line-height: 3rem;
+    color: rgb(107 114 128/1);
+}
+.git-card i{
+    color: rgb(107 114 128/1);
+    font-size: 1.5rem;
+    opacity: .8;
+}
+/* end of section 7 */
