@@ -466,7 +466,7 @@ dl{
 .git-text p{
     line-height: 2rem;
     font-size: 1.125rem;
-    margin-top: 1.59rem;
+    margin-top: 1.59    rem;
 }
 
 
@@ -504,7 +504,8 @@ dl{
 .git-card a{
     font-size: 1.125rem;
     line-height: 3rem;
-    color: rgb(107 114 128/1);
+    color: rgb(75 85 99/1);
+    font-weight: 500;
 }
 .git-card i{
     color: rgb(107 114 128/1);
