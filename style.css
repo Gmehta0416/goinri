@@ -18,6 +18,7 @@
     --tw-shadow-color: rgba(15,23,42,.1);
     --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);
     --tw-shadow: var(--tw-shadow-colored);
+    --lexend-font:'Lexend';
 }   
 
 html{
@@ -401,3 +402,42 @@ dl{
 
 
 /* end of section 5 */
+
+
+/* start of section 6 */
+
+#faq{
+    padding: 8rem 0rem;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+}
+
+.faq-container{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+}
+.faq-container h2{
+    max-width: 42rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: var(--lexend-font)
+}
+.faq-list{
+    margin-top: 4rem;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.faq-card h3{
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    font-family: var(--lexend-font);
+}
+.faq-card p{
+    margin-top: 1rem;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+/* end if section 6 */
