@@ -376,7 +376,7 @@ dl{
 }
 .team-info h2{
     /* color: rgb(15 23 42/1); */
-    font-size: inherit;
+    font-size: 1.5rem;
     font-weight: inherit;
 }
 
@@ -388,7 +388,16 @@ dl{
 }
 
 .linkedin-profile-logo{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+.linkedin-profile-logo i{
+    font-size: 2rem;
+    opacity: .4;
+}
+
+
 
 /* end of section 5 */
