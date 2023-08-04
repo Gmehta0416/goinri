@@ -58,7 +58,7 @@ dl{
     color: #334155;
 }
 .nav-logo i{
-    color: var(--main-blue-color);
+    color: #2563eb;
 }
 
 .nav-list{
@@ -517,3 +517,63 @@ dl{
     opacity: .8;
 }
 /* end of section 7 */
+
+/* start of footer */
+
+#id{
+    
+}
+.footer-main{
+    max-width: 76rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-footer-list{
+    margin-top: 2.5rem;
+}
+
+.nav-terms{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    column-gap: 1.5rem;
+}
+
+
+.footer-link{
+    max-width: 76rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(100 116 139/1);
+}
+
+.footer-description p{
+    font-size: .85rem;
+    color: inherit;
+}
+
+.social-handle{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.social-handle i{
+    font-size: 1.5rem;
+    color: rgb(100 116 139/1);
+}
+.social-handle i:hover{
+    color: #334155;
+}
+
+/* end of footer */
