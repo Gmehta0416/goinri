@@ -506,6 +506,10 @@ dl{
     line-height: 3rem;
     color: rgb(75 85 99/1);
     font-weight: 500;
+    cursor: pointer;
+}
+.git-card a:hover{
+    color: rgb(37 99 235/1);
 }
 .git-card i{
     color: rgb(107 114 128/1);
