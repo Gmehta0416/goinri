@@ -120,6 +120,33 @@ dl{
 
 /* end of SECTION 1 */
 
+/* start of section 2 */
+
+.section-2{
+
+}
+
+.intro-container{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+
+/* end  of section 2 */
+
+
+
+
+
 
 /* start of section 3 */
 
