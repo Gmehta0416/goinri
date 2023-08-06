@@ -11,6 +11,8 @@
     --btn-background:#f8fafc;
     --main-blue-color:#4548e3;
     --text-opacity: 1;
+    --text-grey-color:rgb(75 85 99/1);
+    --text-slate-color:rgb(51 65 85/1);
     /* --tw-gradient-from: #eff6ff var(--tw-gradient-from-position); */
     --tw-gradient-from: #eff6ff ;
     --tw-gradient-to: #eff6ff ;
@@ -20,6 +22,17 @@
     --tw-shadow: var(--tw-shadow-colored);
     --lexend-font:'Lexend';
 }   
+
+.btn{
+    color:#3c4956;
+    background-color:#ffffff;
+    border: .8px solid #ecf0f5;
+    padding:.75rem .85rem;
+    border-radius: 1.3rem;
+}
+.btn:hover{
+    border:.5px solid #cbd5e1;
+}
 
 html{
     font-size: 16px;
@@ -107,6 +120,9 @@ dl{
     border:2px solid #cbd5e1;
 }
 
+
+
+
 .nav-sign-in{
     color:#3c4956;
     background-color:#ffffff;
@@ -122,10 +138,6 @@ dl{
 
 /* start of section 2 */
 
-.section-2{
-
-}
-
 .intro-container{
     max-width: 80rem;
     margin-left: auto;
@@ -136,15 +148,24 @@ dl{
 .intro-grid{
     margin-bottom: 2rem;
     display: grid;
-    gap: 10px;
+    column-gap: 4rem;
     grid-template-columns: repeat(2,1fr);
 }
 
-.intro-content h1{
+.intro-content h4{
     font-size: 3.75rem;
     font-family: 'Lexend',sans-serif;
-    /* line-height: 1rem; */
+    line-height:4rem ;
+    padding-bottom: 1.25rem;
+    color: rgb(30 41 59/1);
+    font-weight: 600;
+    /* line-heigt: 1rem; */
     /* font-weight: 900; */
+}
+.intro-content p{
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+    color: rgb(51 65 85/1);
 }
 .heading-span{
     display: block;
@@ -154,6 +175,52 @@ dl{
 }
 
 
+.intro-nav{
+    color: white;
+    margin-top: 1.5rem;
+    /* border: 2px solid black; */
+    line-height: 1.2rem;
+    display: flex;
+    column-gap: 1.5rem;
+    font-size: .875rem;
+    color: white;
+}
+
+.intro-nav .first{
+    background-color: #2563eb;
+    color: inherit;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.intro-nav .second{
+    font-weight: 600;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+
+}
+
+.intro-logo{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-logo span{
+    font-size: .75rem;
+    color: var(--text-slate-color);
+    padding-right: 10rem;
+}
+
+
+
+.gif{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
 /* end  of section 2 */
 
 
