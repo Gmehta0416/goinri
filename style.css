@@ -221,7 +221,7 @@ dl{
     max-width: 100%;
     height: auto;
     border-radius: 1rem;
-    box-shadow: 5px 5px 15px var(--main-blue-color);
+    box-shadow: 1px 1px 6px var(--main-blue-color);
 }
 /* end  of section 2 */
 
@@ -435,10 +435,10 @@ dl{
     text-align: center;
 }
 
-.team-details h2{
+.team-details h3{
     font-size: 2.5rem;
     line-height: 3rem;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 
@@ -480,11 +480,12 @@ dl{
     /* border: 2px solid black; */
     text-align: center;
     font-size: 1.125rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5rem;
     margin-top: 1.5rem;
+    
 }
-.team-info h2{
+.team-info h3{
     /* color: rgb(15 23 42/1); */
     font-size: 1.5rem;
     font-weight: inherit;
@@ -530,7 +531,8 @@ dl{
     max-width: 42rem;
     font-size: 2.5rem;
     line-height: 3rem;
-    font-family: var(--lexend-font)
+    font-family: var(--lexend-font);
+    font-weight: 400;
 }
 .faq-list{
     margin-top: 4rem;
@@ -543,11 +545,14 @@ dl{
     line-height: 1.75rem;
     font-size: 1.125rem;
     font-family: var(--lexend-font);
+    color: rgb(15 23 42/1);
+    font-weight: 400;
 }
 .faq-card p{
     margin-top: 1rem;
     font-size: .875rem;
     line-height: 1.5rem;
+    color: var(--text-grey-color);
 }
 /* end if section 6 */
 
