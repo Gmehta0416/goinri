@@ -9,7 +9,8 @@
 :root{
     --main-white-color:#ffffff;
     --btn-background:#f8fafc;
-    --main-blue-color:#4548e3;
+    --main-violet-color:#4548e3;
+    --main-blue-color:#2563eb;
     --text-opacity: 1;
     --text-grey-color:rgb(75 85 99/1);
     --text-slate-color:rgb(51 65 85/1);
@@ -210,7 +211,7 @@ dl{
 
 .intro-logo span{
     font-size: .75rem;
-    color: var(--text-slate-color);
+    color: var(--text-grey-color);
     padding-right: 10rem;
 }
 
@@ -220,6 +221,7 @@ dl{
     max-width: 100%;
     height: auto;
     border-radius: 1rem;
+    box-shadow: 5px 5px 15px var(--main-blue-color);
 }
 /* end  of section 2 */
 
