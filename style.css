@@ -36,7 +36,9 @@
 .btn:hover{
     border:.5px solid #cbd5e1;
 }
-
+.lexend{
+    font-family: 'Lexend',sans-serif;
+}
 html{
     font-size: 16px;
     scroll-behavior: smooth;
@@ -130,9 +132,6 @@ dl{
     border:1.65px solid rgba(0,0,0,.25);
 }
 
-
-
-
 .nav-sign-in{
     color:#3c4956;
     background-color:#ffffff;
@@ -159,7 +158,7 @@ dl{
 .intro-grid{
     margin-bottom: 2rem;
     display: grid;
-    column-gap: 3.5rem;
+    column-gap: 2rem;
     grid-template-columns: repeat(2,1fr);
 }
 
@@ -245,6 +244,28 @@ dl{
     box-shadow: 1px 1px 6px var(--main-blue-color);
 }
 
+.intro-sponser p{
+    text-align: center;
+    font-weight: 500;
+    color: var(--text-grey-color);
+    font-size: .9rem;
+}
+
+.intro-links{
+    display: flex;
+    flex-direction: column;
+}
+.intro-links-img{
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro-sponser-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
 /* end  of section 2 */
 
 
