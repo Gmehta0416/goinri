@@ -150,7 +150,7 @@ dl{
 .intro-grid{
     margin-bottom: 2rem;
     display: grid;
-    column-gap: 4rem;
+    column-gap: 3.5rem;
     grid-template-columns: repeat(2,1fr);
 }
 
@@ -160,9 +160,10 @@ dl{
     line-height:4rem ;
     padding-bottom: 1.25rem;
     color: rgb(30 41 59/1);
-    font-weight: 600;
+    font-weight: 500;
     /* line-heigt: 1rem; */
     /* font-weight: 900; */
+    letter-spacing: -.1rem;
 }
 .intro-content p{
     font-size: 1.05rem;
@@ -173,7 +174,8 @@ dl{
     display: block;
     color: rgb(37 99 235/1);
     font-family: 'Lexend',sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: -.1rem;
 }
 
 
@@ -220,10 +222,12 @@ dl{
 
 .gif{
     max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
     box-shadow: 1px 1px 6px var(--main-blue-color);
 }
+
 /* end  of section 2 */
 
 
