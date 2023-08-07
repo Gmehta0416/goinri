@@ -105,7 +105,7 @@ dl{
     width: 30.75rem;
     display: flex;
     justify-content: space-between;
-    line-height: none;
+    line-height: 1rem;
 }
 
 .nav-button{
@@ -119,7 +119,7 @@ dl{
     width: 24rem;
     background-color: white;
     opacity: .5;
-    border: 2px solid rgba(0,0,0,.1);
+    border: 1.65px solid rgba(0,0,0,.1);
     border-radius: 1.3rem;
 }
 .nav-button i{
@@ -127,7 +127,7 @@ dl{
 }
 
 .nav-button:hover{
-    border:2px solid rgba(0,0,0,.25);
+    border:1.65px solid rgba(0,0,0,.25);
 }
 
 
@@ -136,13 +136,13 @@ dl{
 .nav-sign-in{
     color:#3c4956;
     background-color:#ffffff;
-    border: 2px solid rgba(0,0,0,.1);
+    border: 1.5px solid rgba(0,0,0,.1);
     padding:.75rem .85rem;
     border-radius: 1.3rem;
 }
 
 .nav-sign-in:hover{
-    border:2px solid rgba(0,0,0,.25);
+    border:1.5px solid rgba(0,0,0,.25);
 }
 
 /* end of SECTION 1 */
@@ -192,7 +192,7 @@ dl{
     color: white;
     margin-top: 1.5rem;
     /* border: 2px solid black; */
-    line-height: 1.2rem;
+    line-height: 1rem;
     display: flex;
     column-gap: 1.5rem;
     font-size: .875rem;
@@ -206,12 +206,19 @@ dl{
     /* letter-spacing: 1px; */
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+    
+}
+.intro-nav .first:hover{
+    opacity: .9;
 }
 .intro-nav .second{
     font-weight: 600;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
-
+    border: 1.65px solid rgba(0,0,0,.1);
+}
+.intro-nav .second:hover{
+    border: 1.65px solid rgba(0,0,0,.25);
 }
 
 .intro-logo{
@@ -225,6 +232,7 @@ dl{
     font-size: .75rem;
     color: var(--text-grey-color);
     padding-right: 10rem;
+    opacity: .99;
 }
 
 
